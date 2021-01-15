@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from 'react';\n\n/**\n * In next.js we can't use `src/pages/[...slug].js` for root site page `/`.\n * Instead, we import and export the [...slug].js while overriding its getStaticProps.\n */\nimport Page from './[...slug]';\nexport var __N_SSG = true;\nexport default Page;","map":null,"metadata":{},"sourceType":"module"}

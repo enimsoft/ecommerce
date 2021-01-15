@@ -1,0 +1,1 @@
+{"ast":null,"code":"import marked from 'marked';\nimport htmlToReact from './htmlToReact';\nexport default function markdownify(markdown) {\n  if (!markdown) {\n    return null;\n  }\n\n  return htmlToReact(marked(markdown));\n}\n;","map":null,"metadata":{},"sourceType":"module"}

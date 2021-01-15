@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function cycler() {\n  const args = Array.prototype.slice.call(arguments);\n  let index = 0;\n  return {\n    next: () => args[index++ % args.length]\n  };\n}\n;","map":null,"metadata":{},"sourceType":"module"}

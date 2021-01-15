@@ -1,0 +1,1 @@
+{"ast":null,"code":"import _ from 'lodash';\nexport default function pathJoin(...pathParts) {\n  const result = _.compact(pathParts).join('/').replace(/\\/{2,}/g, '/');\n\n  return result || '.';\n}","map":null,"metadata":{},"sourceType":"module"}
